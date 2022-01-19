@@ -19,7 +19,7 @@ console.log("Exercise One"); // Do not modify the lines like this before each ex
 // Write your code here 👇
 
 index = 0;
-while (index < 2) {
+while (index < 10) {
   console.log(index);
   index++;
 }
@@ -35,10 +35,11 @@ console.log("Exercise Two");
 //
 // Write your code here 👇
 
-// index = 0;
-// while (index < 15) {
-//   console.log(index);
-// }
+index = 0;
+while (index <= 15) {
+  console.log(index);
+  index++;
+}
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Three");
@@ -49,7 +50,11 @@ console.log("Exercise Three");
 // - Hint 2: Remember to set index = 0;
 // Write your code here 👇
 
-
+index = 1;
+while (index <= 20) {
+  console.log(index);
+  index++;
+}
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Four");
@@ -60,6 +65,11 @@ console.log("Exercise Four");
 //
 // Write your code here 👇
 
+index = 2;
+while (index <= 20) {
+  console.log(index);
+  index += 2;
+}
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Five");
@@ -70,6 +80,11 @@ console.log("Exercise Five");
 //
 // Write your code here 👇
 
+index = 1;
+while (index <= 19) {
+  console.log(index);
+  index += 2;
+}
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Six");
@@ -80,6 +95,11 @@ console.log("Exercise Six");
 //
 // Write your code here 👇
 
+index = 5;
+while (index <= 100) {
+  console.log(index);
+  index += 5;
+}
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Seven");
@@ -90,6 +110,11 @@ console.log("Exercise Seven");
 //
 // Write your code here 👇
 
+index = 20;
+while (index >= 1) {
+  console.log(index);
+  index--;
+}
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Eight");
@@ -100,6 +125,11 @@ console.log("Exercise Eight");
 //
 // Write your code here 👇
 
+index = 20;
+while (index >= 1) {
+  console.log(index);
+  index -= 2;
+}
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Nine");
@@ -110,6 +140,11 @@ console.log("Exercise Nine");
 //
 // Write your code here 👇
 
+index = 19;
+while (index >= 1) {
+  console.log(index);
+  index-= 2;
+}
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Ten");
@@ -120,7 +155,11 @@ console.log("Exercise Ten");
 //
 // Write your code here 👇
 
-
+index = 100;
+while (index >= 5) {
+  console.log(index);
+  index -= 5;
+}
 
 // When you are done with all of the exercises, check your console output to make sure it
 // matches the expected output of each exercise and remove any extranneous console.log()
